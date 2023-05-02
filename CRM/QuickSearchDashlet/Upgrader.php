@@ -18,7 +18,7 @@ class CRM_QuickSearchDashlet_Upgrader extends CRM_QuickSearchDashlet_Upgrader_Ba
       // Create search dashlet
       civicrm_api3('Dashboard', 'create', [
         'name'           => 'quicksearch',
-        'label'          => 'Snelzoeken',
+        'label'          => 'Quicksearch',
         'url'            => 'civicrm/dashlet/quicksearch?reset=1&snippet=5',
         'fullscreen_url' => 'civicrm/dashlet/quicksearch?reset=1&snippet=5&context=dashletFullscreen',
         'permission'     => 'access CiviCRM',
